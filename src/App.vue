@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
+  <h1 class="bg-amber-600 text-green-400">You did it!</h1>
+  <p class="test">
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
     documentation
   </p>
