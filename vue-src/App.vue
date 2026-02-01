@@ -11,6 +11,7 @@
 </template>
 
 <script setup lang="ts">
+import '~/javascript/index.js'
 import { useCounterStore } from '@/store/index'
 import { RouterLink } from 'vue-router'
 
