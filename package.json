@@ -10,7 +10,7 @@
     "test": "jest",
     "watch javascript index": "node --watch javascript/index.js",
     "watch typescript index": "node --watch --import tsx typescript/index.ts",
-    "watch nodejs index": "node --watch --import tsx nodejs/index.ts",
+    "watch nodejs index": "node --watch --import tsx nodejs/index.js",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "run-s lint:*",
