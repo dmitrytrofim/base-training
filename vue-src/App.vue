@@ -1,8 +1,9 @@
 <template>
-  <div class="text-[50px]">
-    <div class="">
-      <RouterLink to="/">home</RouterLink>
-      <RouterLink to="/about">about</RouterLink>
+  <div class="p-[5px]">
+    <div class="flex items-center gap-[10px] text-[16px]">
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/playground/composition-api">CompositionApi</RouterLink>
+      <RouterLink to="/playground/options-api">OptionsApi</RouterLink>
     </div>
     <div class="">
       <RouterView />
@@ -12,10 +13,8 @@
 
 <script setup lang="ts">
 import '~/javascript/index.js'
-import { useCounterStore } from '@/store/index'
 import { RouterLink } from 'vue-router'
-
-const store = useCounterStore()
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>

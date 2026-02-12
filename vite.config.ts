@@ -12,6 +12,7 @@ export default defineConfig({
     alias: {
       '~': fileURLToPath(new URL('./', import.meta.url)),
       '@': fileURLToPath(new URL('./vue-src', import.meta.url)),
+      // '#': fileURLToPath(new URL('./react-src', import.meta.url)),
     },
   },
 })

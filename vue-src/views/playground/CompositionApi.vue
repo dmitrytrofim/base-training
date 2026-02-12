@@ -1,5 +1,5 @@
 <template>
-  <div>about</div>
+  <div>CompositionApi</div>
 </template>
 
 <script lang="ts" setup></script>
