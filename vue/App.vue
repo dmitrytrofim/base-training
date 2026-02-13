@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import '~/javascript/index.js'
+import '@/javascript/index.js'
 import { RouterLink } from 'vue-router'
 </script>
 
