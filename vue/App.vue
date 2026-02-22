@@ -6,7 +6,7 @@
       <RouterLink to="/playground/options-api">OptionsApi</RouterLink>
     </div>
     <div class="pt-[10px]">
-      <RouterView />
+      <RouterView/>
     </div>
   </div>
 </template>
