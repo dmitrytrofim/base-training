@@ -1,8 +1,8 @@
 import { createWebHistory, createRouter } from 'vue-router'
 
 import HomeView from '@v/views/HomeView.vue'
-import CompositionApi from '@v/views/playground/CompositionApi.vue'
-import OptionsApi from '@v/views/playground/OptionsApi.vue'
+import CompositionApi from '@v/views/playground/composition-api/index.vue'
+import OptionsApi from '@v/views/playground/options-api/index.vue'
 
 const routes = [
   { path: '/', component: HomeView },

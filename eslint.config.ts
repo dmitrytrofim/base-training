@@ -30,6 +30,7 @@ export default defineConfigWithVueTs(
       '@typescript-eslint/no-unused-vars': ['error', {
         argsIgnorePattern: '^_'
       }],
+      "vue/multi-word-component-names": "off"
     }
   }
 )
