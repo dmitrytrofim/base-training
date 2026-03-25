@@ -1,1 +1,2 @@
-import './codewars.js'
+// import './codewars.js'
+import './test.js'
