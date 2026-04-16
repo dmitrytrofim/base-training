@@ -4,10 +4,11 @@ import { defineConfig } from 'vitest/config'
 import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
+import pageReload from 'vite-plugin-page-reload'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueDevTools(), tailwindcss()],
+  plugins: [vue(), vueDevTools(), tailwindcss(), pageReload(['javascript', 'typescript'])],
   test: {
     environment: 'jsdom',
     globals: true,
