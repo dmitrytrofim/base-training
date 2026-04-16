@@ -1,8 +1,8 @@
-import './assistive.js'
 import './test.js'
+console.clear()
 
-let a
-a ||= 12
+let a = 12
+a ||= 123
 
 console.log(a)
-console.log(a + 12)
+console.log(a + 'tset1')
