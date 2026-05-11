@@ -14,6 +14,14 @@
 <script setup lang="ts">
 import '@/javascript/index.js'
 import { RouterLink } from 'vue-router'
+
+async function fetchData() {
+  const resolve = await fetch('https://jsonplaceholder.typicode.com/posts/1')
+  const data = await resolve.json()
+  console.log(data.title)
+}
+
+fetchData()
 </script>
 
 <style scoped>
